@@ -7,16 +7,16 @@ const inputFormContainer = () => {
     return `
     <h1>Welcome To Nashville</h1>
     <h3>Search for Stuff to do Today</h3>
-    <input type="text" name="Parks" id="parksInput"> <button>Parks Search</button>
+    <input type="text" name="Parks" id="parksInput"> <button id= parksButton>Parks Search</button>
     <br>
     <br>
-    <input type="text" name="Meetups" id="meetupsInput"> <button>Meetups Search</button>
+    <input type="text" name="Meetups" id="meetupsInput"> <button id= meetUpButton>Meetups Search</button>
     <br>
     <br>
-    <input type="text" name="Concerts" id="concertsInput"> <button>Concerts Search</button>
+    <input type="text" name="Concerts" id="concertsInput"> <button id= concertButton>Concerts Search</button>
     <br>
     <br>
-    <input type="text" name="Restaraunts" id="restarauntsInput"> <button>Restaraunts Search</button>
+    <input type="text" name="Restaraunts" id="restarauntsInput"> <button id= restarauntButton>Restaraunts Search</button>
     
     
     `
@@ -27,5 +27,3 @@ const inputContainer = document.querySelector('#formContainer');
 
 // This calls the function and makes it equal to the previously declared variable effectively linking or wrapping the function in that variable.
 inputContainer.innerHTML = inputFormContainer();
-
-
