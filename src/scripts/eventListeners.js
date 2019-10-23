@@ -28,3 +28,9 @@ document.getElementById("restarauntButton").addEventListener("click", function (
 console.log("restaraunt", event);
 
 })
+
+// This is my code for starting my meetup event listener the previous code was done yesterday by the team, I need to have them help me understand it.
+
+function meetupsFetcher(meetupArgument) {
+    fetch(``)
+}
