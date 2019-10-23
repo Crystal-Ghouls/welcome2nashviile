@@ -1,0 +1,3 @@
+function meetupsFetcher(meetupArgument) {
+    fetch(``)
+}
