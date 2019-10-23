@@ -21,16 +21,31 @@
 
 //   })
 
-const restarauntInputEl = document.getElementById("restarauntsInput")
+console.log("hey buddy")
 
-document.getElementById("restarauntButton").addEventListener("click", function (event) {
-console.log("restaraunt", event);
 
- })
 
 // // // Restaurant Search 
-    const restaurantHandleSearch = event => { 
-        console.log(event)
-        const inputField = document.querySelector("restaurantinput")
-        console.log("user input", inputField.value)
+        // const restaurantHandleSearch = event => { 
+    //     console.log(event)
+        // const inputField = document.querySelector("#restaurantsInput")
+        // console.log("user input", inputField)
 
+        // searchRestaurants(inputField.value)
+        // .then(response => {
+            // console.log(response.recipes)
+    //       displayRestaurantHtml(response.recipes)
+    //       inputField.value = ""
+    //     })
+    //   }
+
+    // const restaurantInputEl = document.getElementById("restaurantInput")
+
+    //   document.getElementById("restaurantButton").addEventListener("click", function (event) {
+    //   console.log("restaurant", event);
+    //   })
+
+const inputFood = () => {
+  const text = document.querySelector("#restaurantsInput").value;
+  console.log(text)
+} 

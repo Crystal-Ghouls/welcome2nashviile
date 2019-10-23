@@ -16,7 +16,7 @@ const inputFormContainer = () => {
     <input type="text" name="Concerts" id="concertsInput"> <button id= concertButton>Concerts Search</button>
     <br>
     <br>
-    <input type="text" name="Restaraunts" id="restarauntsInput"> <button id= restarauntButton>Restaraunts Search</button>
+    <input type="text" name="Restaurants" id="restaurantsInput"> <button id= restaurantButton>Restaurants Search</button>
     
     
     `

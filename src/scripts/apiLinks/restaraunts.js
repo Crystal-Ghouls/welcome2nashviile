@@ -23,9 +23,9 @@ const searchRestaurants = searchInput => fetch(`${restaurantBaseUrl})/search?ent
 
 
 // // Restaurant Search 
-// const restaurantHandleSearch = event => { 
-//     // console.log(event)
-//     const inputField = document.querySelector("input")
+    const restaurantHandleSearch = event => { 
+    // console.log(event)
+    // const inputField = document.querySelector("input")
 //     console.log("user input", inputField.value)
 
 // const restarauntInputEl = document.getElementById("meetrestarauntInput")
