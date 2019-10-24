@@ -37,13 +37,29 @@ console.log("concerts", event);
 
 })
 
-// This is the button that links the event listener to the buttons in restaraunts.
-const restarauntInputEl = document.getElementById("meetrestarauntInput")
-
-document.getElementById("restarauntButton").addEventListener("click", function (event) {
-console.log("restaraunt", event);
-
+// RESTAURANT SECTION
+// Restaurant Event Listener 
+document.getElementById("restaurantButton").addEventListener("click", function (event) {
+  restaurantHandleSearch()
 })
+
+
+// // Restaurant Search 
+    const restaurantHandleSearch = event => { 
+      // console.log(event)
+      const inputField = document.querySelector("#restaurantsInput")
+      console.log("user input", inputField.value)
+      
+
+      searchRestaurants(inputField.value)
+      .then(response => {
+        console.log(response.restaurants)
+        // displayRestaurantHtml(response.restaurants)
+        inputField.value = ""
+    })
+  }
+
+
 
 
 
