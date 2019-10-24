@@ -11,6 +11,7 @@ everbriteApi();
 
 
 
+
 // This is an example from the EventBriteAPI that allows you to actually get the API running. THe above code is a workaround when hosting the API from a different position
 
 // fetch(`https://www.eventbriteapi.com/v3/events/search/?q=${search string}&location.address=nashville&token=${V35VXGKPMWBJ6RSDRZB5}`, {

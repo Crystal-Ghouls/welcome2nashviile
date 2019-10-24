@@ -12,10 +12,17 @@ parksApi()
 // THis is the meetup button event listener set up for a click response and console Log
 const meetUpInputEl = document.getElementById("meetupsInput")
 
-document.getElementById("meetUpButton").addEventListener("click", function (event) {
+document.getElementById("meetUpsInput").addEventListener("click", function (event) {
 console.log("meet-up", event);
 
 })
+
+const meetUpSearch = event => {
+    const inputField = document.getElementById("")
+}
+
+
+
 
 // THis is the button that links the event listener for button Concert Input
 const concertsInputEl = document.getElementById("concertInput")

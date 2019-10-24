@@ -49,7 +49,7 @@ const inputFormContainer = () => {
                 <fieldset>
                     <label for="nashvilleMeetups">Checkout Meetups</label>
                     <input type="text" name="meetups" class="meetupsInput">
-                    <button id="meetupsInput" type="button">Checkout These Meetups!</button>
+                    <button id="meetUpsInput" type="button">Checkout These Meetups!</button>
                 </fieldset>
             
     </section>
