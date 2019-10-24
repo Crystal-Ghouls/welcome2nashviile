@@ -10,10 +10,10 @@ const inputFormContainer = () => {
     <h3>Search for Stuff to do Today</h3>
 
     <select name="Parks" id="parksInput">
-        <option value=" https://data.nashville.gov/resource/74d7-b74t.json?playground=Yes">Playground</option>
-        <option value="https://data.nashville.gov/resource/74d7-b74t.json?skate_park=Yes">Skate Park</option>
-        <option value="https://data.nashville.gov/resource/74d7-b74t.json?dog_park=Yes">Dog Park</option>
-        <option value="https://data.nashville.gov/resource/74d7-b74t.json?restrooms_available=Yes">Restrooms Available</option>
+        <option value="playground">Playground</option>
+        <option value="skate_park">Skate Park</option>
+        <option value="dog_park">Dog Park</option>
+        <option value="restrooms_available">Restrooms Available</option>
     </select> 
     <button id= parksButton>Parks Search</button>
     <br>
