@@ -8,7 +8,7 @@ const searchRestaurants = searchInput => fetch(`${restaurantBaseUrl}/search?enti
 
 
 
-
+    // https://developers.zomato.com/api/v2.1/search?entity_id=1138&entity_type=city&start=first&sort=rating&apikey=c469662e59f31a94390e69fe829b45cf
 
 
 // // Restaurant Search 

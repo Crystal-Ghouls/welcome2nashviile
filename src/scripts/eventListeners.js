@@ -21,33 +21,30 @@
 
 //   })
 
-
+// Restaurant Event Listener 
 document.getElementById("restaurantButton").addEventListener("click", function (event) {
-      const restaurantInputEl = document.getElementById("restaurantsInput")
-      searchRestaurants(restaurantInputEl.value).then(restaurants => {
-        console.log(restaurants)
-      })
-      console.log("restaurant", event);
-      
+      restaurantHandleSearch()
     })
-
-
-console.log("hey buddy")
-
 
 
 // // Restaurant Search 
         const restaurantHandleSearch = event => { 
-        // console.log(event)
-        const inputField = document.querySelector("#restaurantsInput")
-        console.log("user input", inputField)
+          // console.log(event)
+          const inputField = document.querySelector("#restaurantsInput")
+          console.log("user input", inputField.value)
+          
 
-        searchRestaurants(inputField.value)
-        .then(response => {
-            console.log(response.recipes)
-          displayRestaurantHtml(response.recipes)
-          inputField.value = ""
+          searchRestaurants(inputField.value)
+          .then(response => {
+            console.log(response.restaurants)
+            // displayRestaurantHtml(response.restaurants)
+            inputField.value = ""
         })
       }
+      
+      
+
+
+
 
       
