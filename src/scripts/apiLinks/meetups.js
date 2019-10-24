@@ -1,7 +1,10 @@
 // This is a function that is going to be used in a function which is my api
 // for this group. 
+const eventBriteURL = "https://raw.githubusercontent.com/nss-cohort-36/temp-eb-api/master/search-response.json"
+
+
 const eventbriteApi = () => {
-return fetch("https://raw.githubusercontent.com/nss-cohort-36/temp-eb-api/master/search-response.json")
+return fetch(`${eventBriteURL}`)
     .then(r => r.json())
     // .then(results => console.log(results.events));
 };
