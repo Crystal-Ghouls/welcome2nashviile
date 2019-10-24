@@ -38,3 +38,5 @@ const inputContainer = document.querySelector('#formContainer');
 
 // This calls the function and makes it equal to the previously declared variable effectively linking or wrapping the function in that variable.
 inputContainer.innerHTML = inputFormContainer();
+
+
