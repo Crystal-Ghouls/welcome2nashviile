@@ -1,26 +1,6 @@
-// const parksInputEl = document.getElementById("parksInput")
-
-// document.getElementById("parksButton").addEventListener("click", function (event) {
-// console.log("parks", event);
-
-// })
 
 
-// const meetUpInputEl = document.getElementById("meetupsInput")
-
-// document.getElementById("meetUpButton").addEventListener("click", function (event) {
-// console.log("meet-up", event);
-
-// })
-
-
-//  const concertsInputEl = document.getElementById("concertInput")
-
-//  document.getElementById("concertButton").addEventListener("click", function (event) {
-//   console.log("concerts", event);
-
-//   })
-
+// RESTAURANT SECTION
 // Restaurant Event Listener 
 document.getElementById("restaurantButton").addEventListener("click", function (event) {
       restaurantHandleSearch()
