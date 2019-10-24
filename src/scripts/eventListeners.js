@@ -12,14 +12,19 @@ parksApi()
 // THis is the meetup button event listener set up for a click response and console Log
 const meetUpInputEl = document.getElementById("meetupsInput")
 
-document.getElementById("meetUpsInput").addEventListener("click", function (event) {
-console.log("meet-up", event);
-
-})
-
 const meetUpSearch = event => {
-    const inputField = document.getElementById("")
-}
+    const inputField = document.getElementById("meetUpsSearch")
+    console.log("user input", inputField.value)
+
+
+eventbriteApi(inputField.value)
+    .then(response => {
+        console.log(response.events)
+        inputField.value = "";
+    });
+};
+
+document.getElementById("meetUpsInput").addEventListener("click", meetUpSearch) 
 
 
 

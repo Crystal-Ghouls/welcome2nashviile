@@ -16,41 +16,35 @@ const inputFormContainer = () => {
         </span>
         <section class="wrapper">
             
-                <fieldset>
-                    <label for="concerts">Search concerts</label>
-                    <input type="text" name="Whatever Charles Wants" id="Whatever Charles Sets this too">
-                    <button class="concertsButton" type="button">Charles Picks What this Says</button>
-                </fieldset>
-            
-            
-                <fieldset>
-                    <label for="nashvilleRestaurants">Search Restaurants Golden One Picks What This Says</label>
-                    <input type="text" name="restaurants" class="restaurantsInput" placeholder="What's your favorite type of cuisine? Type it here!">
-                    <button class="restaurantsButton" type="button">This is Corris Button</button>
-                </fieldset>
-            
-            
-                <fieldset>
-                <select name="Parks" id="parksInput">
-                <option value=" https://data.nashville.gov/resource/74d7-b74t.json?playground=Yes">Playground</option>
-                <option value="https://data.nashville.gov/resource/74d7-b74t.json?skate_park=Yes">Skate Park</option>
-                <option value="https://data.nashville.gov/resource/74d7-b74t.json?dog_park=Yes">Dog Park</option>
-                <option value="https://data.nashville.gov/resource/74d7-b74t.json?restrooms_available=Yes">Restrooms Available</option>
+    <fieldset>
+        <label for="concerts">Search concerts</label>
+        <input type="text" name="Whatever Charles Wants" id="Whatever Charles Sets this too">
+        <button class="concertsButton" type="button">Charles Picks What this Says</button>
+    </fieldset>
+    <fieldset>
+        <label for="nashvilleRestaurants">Search Restaurants Golden One Picks What This Says</label>
+        <input type="text" name="restaurants" class="restaurantsInput" placeholder="What's your favorite type of cuisine? Type it here!">
+        <button class="restaurantsButton" type="button">This is Corris Button</button>
+    </fieldset>
+    <fieldset>
+        <select name="Parks" id="parksInput">
+            <option value=" https://data.nashville.gov/resource/74d7-b74t.json?playground=Yes">Playground</option>
+            <option value="https://data.nashville.gov/resource/74d7-b74t.json?skate_park=Yes">Skate Park</option>
+            <option value="https://data.nashville.gov/resource/74d7-b74t.json?dog_park=Yes">Dog Park</option>
+            <option value="https://data.nashville.gov/resource/74d7-b74t.json?restrooms_available=Yes">Restrooms Available</option>
             </select> 
             <button id= parksButton>Parks Search</button>
             <br>
             <br>
-                  </select>
-                    </div>
-                    <br>
-                </fieldset>
-            
-            
-                <fieldset>
-                    <label for="nashvilleMeetups">Checkout Meetups</label>
-                    <input type="text" name="meetups" class="meetupsInput">
-                    <button id="meetUpsInput" type="button">Checkout These Meetups!</button>
-                </fieldset>
+    </select>
+    </div>
+    <br>
+    </fieldset>
+    <fieldset>
+        <label for="nashvilleMeetups">Checkout Meetups</label>
+        <input type="text" name="meetups" id="meetUpsSearch">
+        <button id="meetUpsInput" type="button">Checkout These Meetups!</button>
+    </fieldset>
             
     </section>
     <hr>
@@ -66,7 +60,7 @@ const inputFormContainer = () => {
     </article>
     <hr>
     <div class="box3">
-            <h2 class="intineraryList">Here is Your Itinerary</p>
+        <h2 class="intineraryList">Here is Your Itinerary</p>
     <article class="itineraryContainer">
             <div id="meetupsItinerary"></div>
             <section id="parkItinerary"></section>
