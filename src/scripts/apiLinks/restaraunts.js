@@ -1,8 +1,8 @@
-
+const restaurantBaseUrl = ("https://developers.zomato.com/api/v2.1")
 
 
 // setup to search using input value/ return results
-const searchRestaurants = searchInput => fetch(`${restaurantBaseUrl}search?entity_id=1138&entity_type=city&start=first&sort=rating&${apikey}`)
+const searchRestaurants = searchInput => fetch(`${restaurantBaseUrl}/search?entity_id=1138&entity_type=city&start=first&sort=rating&apikey=${restaurantApiKey}`)
     .then(response => response.json())
 
 

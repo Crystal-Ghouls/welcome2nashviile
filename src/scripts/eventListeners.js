@@ -21,9 +21,12 @@
 
 //   })
 
-const restaurantInputEl = document.getElementById("restaurantsInput")
 
-    document.getElementById("restaurantButton").addEventListener("click", function (event) {
+document.getElementById("restaurantButton").addEventListener("click", function (event) {
+      const restaurantInputEl = document.getElementById("restaurantsInput")
+      searchRestaurants(restaurantInputEl.value).then(restaurants => {
+        console.log(restaurants)
+      })
       console.log("restaurant", event);
       
     })
