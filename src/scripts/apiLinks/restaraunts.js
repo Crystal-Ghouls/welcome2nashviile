@@ -9,6 +9,8 @@ const searchRestaurants = searchInput => fetch(`${restaurantBaseUrl}search?entit
 
 
 
+
+
 // // Restaurant Search 
     // const restaurantHandleSearch = event => { 
     // console.log(event)
