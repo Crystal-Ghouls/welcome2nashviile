@@ -3,7 +3,10 @@ const parksInputEl = document.getElementById("parksInput")
 
 document.getElementById("parksButton").addEventListener("click", function (event) {
 console.log("parks", event);
-
+parksApi()
+.then (response => {
+    console.log(response)
+})
 })
 
 // THis is the meetup button event listener set up for a click response and console Log
