@@ -2,7 +2,10 @@ const parksInputEl = document.getElementById("parksInput")
 
 document.getElementById("parksButton").addEventListener("click", function (event) {
 console.log("parks", event);
-
+parksApi()
+.then (response => {
+    console.log(response)
+})
 })
 
 
