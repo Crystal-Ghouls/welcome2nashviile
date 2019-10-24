@@ -1,0 +1,8 @@
+.DS_Store
+
+const searchRestaurants = searchInput => fetch(`${restaurantBaseUrl}search?entity_id=1138&entity_type=city&start=first&sort=rating&apikey=c469662e59f31a94390e69fe829b45cf`)
+    .then(response => response.json())
+
+
+const restaurantBaseUrl = ("https://developers.zomato.com/api/v2.1")
+const apikey = apikey=c469662e59f31a94390e69fe829b45cf
