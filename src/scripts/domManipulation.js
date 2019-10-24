@@ -17,8 +17,8 @@ const inputFormContainer = () => {
         <section class="wrapper">
             
     <fieldset>
-        <input type="text" name="Whatever Charles Wants" id="Whatever Charles Sets this too">
-        <button class="concertsButton" type="button">Charles Picks What this Says</button>
+        <input type="text" name="Whatever Charles Wants" id="concertInput">
+        <button id="concertsButton" type="button">Concerts</button>
     </fieldset>
     <fieldset>
         <input type="text" name="restaurants" class="restaurantsInput" placeholder="What's your favorite type of cuisine? Type it here!">

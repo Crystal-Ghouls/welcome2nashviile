@@ -32,10 +32,16 @@ document.getElementById("meetUpsInput").addEventListener("click", meetUpSearch)
 // THis is the button that links the event listener for button Concert Input
 const concertsInputEl = document.getElementById("concertInput")
 
-document.getElementById("concertButton").addEventListener("click", function (event) {
+const concertSearch = event => {
+    const concertInputField = document.getElementById('concertsButton')
+    console.log('user input', concertInputField.value)
+
+
+}
+
+document.getElementById("concertsButton").addEventListener("click", searchConcerts) 
 console.log("concerts", event);
 
-})
 
 // This is the button that links the event listener to the buttons in restaraunts.
 const restarauntInputEl = document.getElementById("meetrestarauntInput")
