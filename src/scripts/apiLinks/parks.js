@@ -19,18 +19,15 @@
 
 
 const parksApi = (keyword) => {
-  console.log(parksApiKey)
-  return fetch(`https://data.nashville.gov/resource/74d7-b74t.json?playground=Yes`, {
+  
+  return fetch(`https://data.nashville.gov/resource/74d7-b74t.json?${keyword}=Yes`, {
       "headers": {
         "Accept": "application/json",
         "X-App-Token": `${parksApiKey}`
       }
     })
-    .then(r => r.json())
-}
-
-
-// document.getElementById("parksButton").addEventListener("click", function (event) {
-//   console.log("parks", event);
-
-// })
+    .then(res => res.json())
+    // // .then(function(res) {
+    // //   return res.json()
+    // })
+};
